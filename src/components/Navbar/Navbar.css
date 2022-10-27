@@ -1,0 +1,53 @@
+.navbar {
+    display: grid;
+    background-color: #62EE62;
+    height: 90px;
+    
+}
+
+.navbar__title  {
+    font-weight: 700;
+    font-size: 36px;
+}
+.hamburger__menu {
+    margin: 10px;
+    color: #02231C;
+}
+
+
+
+.navbar__search__input {
+    width: 500px;
+    height: 50px;
+    background: #95FF95;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 20px;
+    font-weight: 600;
+    border: none;
+
+}
+.navbar__search__input::placeholder{
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.navbar__log__in {
+    color: #02231C;
+    background: inherit;
+    border: none;
+    font-size: 20px;
+}
+
+.navbar__shopping__cart{
+    color: #02231C;
+    margin: 0 10px;
+}
+
+.navbar__fasearch {
+    align-items: center;
+    color: black;
+    background: #95FF95;
+    height: 50px;
+    border-radius: 7px;
+}
