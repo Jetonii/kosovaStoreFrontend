@@ -8,10 +8,11 @@
 .navbar__title  {
     font-weight: 700;
     font-size: 36px;
+    color: #439BED;
 }
 .hamburger__menu {
     margin: 10px;
-    color: #02231C;
+    color: black;
 }
 
 
@@ -24,7 +25,6 @@
     padding: 10px;
     font-size: 20px;
     font-weight: 600;
-    border: none;
 
 }
 .navbar__search__input::placeholder{
@@ -33,21 +33,22 @@
 }
 
 .navbar__log__in {
-    color: #02231C;
+    color: black;
     background: inherit;
     border: none;
     font-size: 20px;
 }
 
 .navbar__shopping__cart{
-    color: #02231C;
+    color: black;
     margin: 0 10px;
 }
 
 .navbar__fasearch {
     align-items: center;
-    color: black;
-    background: #95FF95;
+    color: #439BED;
     height: 50px;
+    width: 50px;
+    border-color: #439BED;
     border-radius: 7px;
 }
