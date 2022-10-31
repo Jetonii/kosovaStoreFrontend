@@ -91,6 +91,114 @@
 .hr__style {
     background-color: #439BED;
     height: 6px;
-    margin: 0 ;
+    margin: 0;
     border-top: 1px solid black;
+}
+
+
+.loyaltyMembership {
+    background-color: #A5D4FF;
+    position: relative;
+    z-index: -4;
+}
+
+.loyaltyMembership__join {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    /* height: 700px; */
+}
+
+.loyaltyMembership__join__first {
+    padding-top: 70px;
+    font-weight: 700;
+    font-size: 56px;
+    max-width: 1000px;
+    text-align: center;
+    color: white;
+}
+
+.loyaltyMembership__join__second {
+    font-weight: 600;
+    font-size: 32px;
+    width: 600px;
+    text-align: center;
+    color: white;
+}
+
+.loyaltyMembership__join__button {
+    font-weight: 500;
+    font-size: 28px;
+    width: 300px;
+    height: 56px;
+    background: transparent;
+    border: 2.5px solid black;
+    border-radius: 7px;
+    backdrop-filter: blur(25px);
+    margin-bottom: 150px;
+
+}
+
+.loyaltyMembership__join__image {
+    position: absolute;
+    top: 50px;
+    width: 750px;
+    z-index: -1;
+    right: 0;
+}
+
+.loyaltyMembership__send {
+    display: flex;
+    position: relative;
+    background-color: antiquewhite;
+    z-index: -5;
+    justify-content: center;
+    flex-direction: column;
+    align-items: flex-end;
+    height: 500px;
+    padding-right: 70px;
+}
+
+.loyaltyMembership__send__first {
+    font-weight: 700;
+    font-size: 76px;
+    max-width: 770px;
+    text-align: right;
+}
+
+.loyaltyMembership__send__second {
+    font-weight: 500;
+    font-size: 26px;
+    max-width: 520px;
+    text-align: right;
+}
+
+.loyaltyMembership__send__image {
+    position: absolute;
+    left: 0;
+    top: 50px;
+    width: 650px;
+}
+
+.loyaltyMembership__send__button {
+    width: 300px;
+    height: 60px;
+    font-weight: 500;
+    font-size: 32px;
+    text-align: center;
+    padding: 4px;
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(25px);
+}
+
+
+.FAQs {
+    background-color: antiquewhite;
+    height: 500px;
+    padding: 30px 50px;
+}
+.FAQs__h1 {
+    font-weight: 600;
+    font-size: 54px;
 }
