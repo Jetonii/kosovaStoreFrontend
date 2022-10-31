@@ -1,0 +1,43 @@
+.footer {
+    background-color: antiquewhite;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    background: black;
+    color: white;
+    font-size: 18px;
+    font-weight: 500;
+    padding: 60px 0 20px;
+
+}
+
+.footer__upper__part {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    margin: auto;
+}
+
+.footer__upper__part ul {
+    list-style-type: none;
+}
+.footer__upper__part ul li:hover {
+    color:#439edd;
+}
+
+.footer__bottom__part {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+
+
+.footer__logo {
+    font-weight: 700;
+    font-size: 28px;
+    color: #439BED;
+}
+
+.footer__moto {
+    color:red;
+}

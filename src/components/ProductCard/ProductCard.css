@@ -1,19 +1,76 @@
 .product__card {
-    width: 330px;
+    width: 320px;
     background-color: white;
     border-radius: 25px;
+    border: 2px solid #439BED;
     padding: 15px;
     display: flex;
     justify-content: center;
     flex-direction: column;
     align-items: center;
 }
+
 .product__card__info {
     display: grid;
-    grid-template-columns: 1fr 1fr; 
+    grid-template-columns: 1fr 1fr;
+
 }
+
 .product__card__title {
     font-family: 'Arial';
     font-weight: 400;
-    font-size: 32px;
+    font-size: 30px;
+}
+
+.product__card__description {
+    font-family: "Arial";
+    font-weight: 400;
+    font-size: 16px;
+}
+
+
+.product__card__price__info {
+    display: grid;
+}
+
+.product__card__price {
+    font-family: 'Arial';
+    font-weight: 400;
+    font-size: 24px;
+}
+
+.product__card__quantity {
+    display: flex;
+    align-content: flex-end;
+}
+
+.product__card__priceInfo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.product__card__change__quantity {
+    width: 40px;
+    height: 30px;
+    border-radius: 7px;
+    font-weight: bold;
+    border: 3px solid #439BED;
+    color: #439BED;
+}
+
+.product__card__value {
+    width: 40px;
+    height: 30px;
+    border-radius: 7px;
+    font-weight: bold;
+    border: 3px solid #439BED;
+    color: red;
+}
+
+.product__card__image {
+    border-bottom: 3px solid black;
 }

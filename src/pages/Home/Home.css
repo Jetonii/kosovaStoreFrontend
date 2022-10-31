@@ -78,3 +78,19 @@
     padding: 50px;
     background-color: antiquewhite;
 }
+
+.popular__products__text {
+    background-color: antiquewhite;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    margin: 0;
+    text-align: center;
+}
+
+.hr__style {
+    background-color: #439BED;
+    height: 6px;
+    margin: 0 ;
+    border-top: 1px solid black;
+}
